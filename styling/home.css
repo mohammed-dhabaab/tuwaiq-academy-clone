@@ -179,3 +179,125 @@
     }
 
 }
+
+
+
+/* programs */
+.programs {
+    padding: var(--container-y-padding) var(--container-x-padding);
+    height: auto;
+    background-color: rgb(242, 244, 247);
+    border-bottom: 1px solid rgb(234, 236, 240);
+}
+
+.programs .section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--size-36);
+}
+
+.programs-section-title {
+    color: var(--primary-color);
+}    
+
+
+.programs-sub-container {
+    display: grid;
+    gap: var(--size-28);
+    flex-wrap: wrap;
+}
+
+
+.program-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-28);
+    background-color: var(--main-light-color);
+    padding: var(--size-16);
+    border-radius: var(--size-10);
+    text-align: right;
+    border-right: var(--size-16) solid var(--secondary-color);
+}
+
+.program-header {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-10);
+}
+
+.program-type {
+    color: var(--secondary-color);
+}
+
+
+.program-details {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--size-28);
+}
+
+.program-location,
+.program-time-frame,
+.program-date-content,
+.program-date {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: var(--size-8);
+}
+
+.program-date {
+    gap: var(--size-36);
+}
+
+.program-details-button {
+    color: var(--secondary-color);
+    padding: var(--size-2) var(--size-28);
+    border: 1px solid var(--secondary-color);
+    border-radius: var(--size-28);
+}
+
+.program-details-button:hover {
+    background-color: var(--secondary-color);
+    color: var(--main-light-color);
+    transition: var(--transition);
+}
+
+.more-programs-button {
+    color: var(--primary-color);
+    padding: var(--size-6) var(--size-30);
+    border: 1px solid var(--primary-color);
+    border-radius: var(--size-28);
+}
+
+.more-programs-button:hover {
+    background-color: var(--primary-color);
+    color: var(--main-light-color);
+    transition: var(--transition);
+}
+
+.highlighted-program .program-type {
+    color: var(--thirdly-color);
+}
+
+.highlighted-program {
+    border-right-color: var(--thirdly-color);
+}
+
+.highlighted-program .program-details-button {
+    color: var(--thirdly-color);
+    border-color: var(--thirdly-color);
+}
+
+.highlighted-program .program-details-button:hover {
+    background-color: var(--thirdly-color);
+    color: var(--main-light-color);
+}
+
+@media (min-width:640px) {
+    .programs-sub-container {
+        grid-template-columns: repeat(3, auto);
+    }
+}
