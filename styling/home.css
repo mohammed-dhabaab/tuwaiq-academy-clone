@@ -1,0 +1,118 @@
+@import url("../index.css");
+
+/* Main */
+.section-container {
+    max-width: var(--container-max-width);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero {
+    height: auto;
+    padding: var(--container-y-padding) var(--container-x-padding);
+}
+
+
+
+/*  */
+.desktop-navbar,
+.desktop-log-in,
+.mobile-navbar {
+    display: none;
+}
+
+/* header */
+.header {
+    height: auto;
+    padding: var(--size-16) var(--container-x-padding);
+    /* box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.3); */
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header .section-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--main-light-color);
+}
+
+.logo-container,
+.logo-image {
+    max-width: 148px;
+}
+
+.lang-ham-container {
+    display: flex;
+    align-items: center;
+    gap: var(--size-8);
+}
+
+.hamburger-menu-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-8);
+    padding: var(--size-10) var(--size-12);
+    border: 1px solid var(--main-light-color);
+    border-radius: var(--size-4);
+    width: fit-content;
+    height: fit-content;
+}
+
+.hamburger-line {
+    height: 2px;
+    width: var(--size-24);
+    background-color: var(--main-light-color);
+}
+
+.english-language {
+    color: var(--main-light-color);
+    font-weight: var(--fw-medium);
+    font-size: var(--fs-20);
+}
+
+.mobile-navbar__list {
+
+}
+
+.mobile-navbar__link:hover,
+.desktop-navbar__link:hover,
+.desktop-log-in:hover,
+.english-language:hover {
+    color: var(--secondary-color);
+    transition: var(--transition);
+}
+
+
+
+@media (min-width:640px) {
+    .mobile-navbar {
+        display: none;
+    }
+
+    .desktop-navbar {
+        display: flex;
+    }
+
+    .desktop-log-in {
+        display: inline-block;
+        color: var(--main-light-color);
+        font-weight: var(--fw-medium);
+    }
+
+    .desktop-navbar__list {
+        display: flex;
+        gap: var(--size-12);
+    }
+
+    .desktop-navbar-logo-container {
+        display: flex;
+        align-items: center;
+        gap: var(--size-24);
+    }
+    
+    .desktop-navbar__link {
+        color: var(--main-light-color);
+    }    
+}

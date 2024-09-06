@@ -25,18 +25,32 @@
     --fw-medium: 500;
     --fw-bold: 700;
 
-    --fs-900: 6rem; /* 96px */
-    --fs-800: 3rem; /* 48px */
-    --fs-700: 1.875rem; /* 96px */
-    --fs-600: 2.25rem; /* 36px */
-    --fs-500: 1.875rem; /* 30px */
-    --fs-400: 1.5rem; /* 24px */
-    --fs-300: 1.25rem; /* 20px */
-    --fs-200: 1.125rem; /* 18px */
-    --fs-100: 1rem; /* 16px */
-    --fs-50: 0.875rem; /* 14px */
+    --fs-96: 6rem; /* 96px */
+    --fs-48: 3rem; /* 48px */
+    --fs-: 1.875rem; /* 96px */
+    --fs-36: 2.25rem; /* 36px */
+    --fs-30: 1.875rem; /* 30px */
+    --fs-24: 1.5rem; /* 24px */
+    --fs-20: 1.25rem; /* 20px */
+    --fs-18: 1.125rem; /* 18px */
+    --fs-16: 1rem; /* 16px */
+    --fs-14: 0.875rem; /* 14px */
 
-    --container-max-width: 1400px;
+
+    --size-24: 1.5rem;
+    --size-18: 1.125rem;
+    --size-16: 1rem;
+    --size-12: 0.75rem;
+    --size-10: 0.625rem;
+    --size-8: 0.5rem;
+    --size-6: 0.375rem;
+    --size-4: 0.25rem;
+    --size-2: 0.124rem;
+    --size-1: 0.063rem;
+
+    --container-max-width: 1300px;
+    --container-y-padding: 56px;
+    --container-x-padding: 20px;
 
     --transition: all 0.3s ease-in-out;
 }
@@ -45,11 +59,11 @@ html {
     font-size: 16px;
 }
 
-@media (min-width:640px) {
+/* @media (max-width:640px) {
     html {
         font-size: 10px;
     }
-}
+} */
 
 body, html {
     width: 100%;
@@ -58,16 +72,4 @@ body, html {
 
 body {
     font-family: var(--main-font);
-}
-
-
-
-/* utility-classes for the project */
-.mx-auto {
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.max-container-width {
-    max-width: var(--container-max-width);
 }
