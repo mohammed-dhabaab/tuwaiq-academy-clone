@@ -1,0 +1,73 @@
+@import url("./styling/normalization.css");
+@import url("./styling/utility-classes.css");
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
+
+/* Screen Sizes:
+    sm: < 640px
+    lg: > 640px
+*/
+
+:root {
+    --primary-color: rgb(78, 55, 151);
+    --secondary-color: rgb(145, 216, 219);
+
+    --main-dark-color: rgb(0, 0, 0);
+    --secondary-dark-color: rgb(52, 57, 70);
+    
+    --main-light-color: rgb(255, 255, 255);
+    --secondary-light-color: rgb(177, 186, 200);
+
+    --main-font: "IBM Plex Sans Arabic", sans-serif;
+
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-bold: 700;
+
+    --fs-900: 6rem; /* 96px */
+    --fs-800: 3rem; /* 48px */
+    --fs-700: 1.875rem; /* 96px */
+    --fs-600: 2.25rem; /* 36px */
+    --fs-500: 1.875rem; /* 30px */
+    --fs-400: 1.5rem; /* 24px */
+    --fs-300: 1.25rem; /* 20px */
+    --fs-200: 1.125rem; /* 18px */
+    --fs-100: 1rem; /* 16px */
+    --fs-50: 0.875rem; /* 14px */
+
+    --container-max-width: 1400px;
+
+    --transition: all 0.3s ease-in-out;
+}
+
+html {
+    font-size: 16px;
+}
+
+@media (min-width:640px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+body, html {
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    font-family: var(--main-font);
+}
+
+
+
+/* utility-classes for the project */
+.mx-auto {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.max-container-width {
+    max-width: var(--container-max-width);
+}
