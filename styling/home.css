@@ -73,12 +73,18 @@
     font-size: var(--fs-20);
 }
 
+.mobile-navbar__link,
+.desktop-navbar__link,
+.desktop-log-in,
+.english-language {
+    transition: var(--transition);
+ }
+
 .mobile-navbar__link:hover,
 .desktop-navbar__link:hover,
 .desktop-log-in:hover,
 .english-language:hover {
     color: var(--secondary-color);
-    transition: var(--transition);
 }
 
 
@@ -257,12 +263,12 @@
     padding: var(--size-2) var(--size-28);
     border: 1px solid var(--secondary-color);
     border-radius: var(--size-28);
+    transition: var(--transition);
 }
 
 .program-details-button:hover {
     background-color: var(--secondary-color);
     color: var(--main-light-color);
-    transition: var(--transition);
 }
 
 .more-programs-button {
@@ -270,12 +276,12 @@
     padding: var(--size-6) var(--size-30);
     border: 1px solid var(--primary-color);
     border-radius: var(--size-28);
+    transition: var(--transition);
 }
 
 .more-programs-button:hover {
     background-color: var(--primary-color);
     color: var(--main-light-color);
-    transition: var(--transition);
 }
 
 .highlighted-program .program-type {
@@ -368,10 +374,79 @@
     border: 1px solid var(--primary-color);
     padding: var(--size-10) var(--size-30);
     border-radius: var(--size-28);
+    transition: var(--transition);
 }
 
 .numbers-more-button:hover {
     background-color: var(--primary-color);
     color: var(--main-light-color);
+}
+
+
+/* Activities */
+.activities {
+    padding: var(--container-y-padding) var(--container-x-padding);
+    height: auto;
+    background-color: var(--primary-color);
+}
+
+.activities .section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--size-48);
+}
+
+.activities-title {
+    color: var(--main-light-color);
+    font-size: var(--fs-30);
+}
+
+.activities-sub-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: var(--size-36);
+}
+
+.activity-container {
+    padding: var(--size-28) var(--size-28);
+    border-radius: var(--size-10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: var(--size-48);
+    background-color: var(--main-light-color);
+}
+
+.activity-title {
+    color: var(--secondary-color);
+    font-size: var(--fs-30);
+    font-weight: var(--fw-medium);
+}
+
+.activity-paragraph {
+    font-size: var(--fs-20);
+    max-width: 18ch;
+}
+
+.activity-button {
+    margin-top: var(--size-48);
+    background-color: var(--primary-color);
+    color: var(--main-light-color);
+    font-size: var(--fs-20);
+    font-weight: var(--fw-bold);
+    padding: var(--size-8) var(--size-30);
+    width: 100%;
+    border-radius: var(--size-30);
+    border: 1px solid var(--primary-color);
     transition: var(--transition);
+}
+
+.activity-button:hover {
+    background-color: var(--main-light-color);
+    color: var(--primary-color);
 }
