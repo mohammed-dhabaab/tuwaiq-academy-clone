@@ -605,3 +605,44 @@
         background-color: var(--primary-color);
     }
 }
+
+/* Partnerships */
+.partnerships {
+    padding: var(--container-y-padding) var(--container-x-padding);
+    height: auto;
+    background-color: var(--thirdly-light-color);
+}
+
+.partnerships .section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--size-48);
+}
+
+.partnerships-title {
+    color: var(--fs-30);
+    color: var(--primary-color);
+}
+
+.partnerships-inner-container {
+    display: flex;
+    gap: var(--size-48);
+    flex-wrap: wrap;
+}
+
+.partner-logo-container {  
+    width: 200px;  
+    height: 100px;  
+    overflow: hidden;  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+}  
+
+.partner-logo {  
+    width: 100%;  
+    height: auto;  
+    object-fit: cover;  
+}
