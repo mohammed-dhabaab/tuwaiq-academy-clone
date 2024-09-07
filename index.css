@@ -42,6 +42,7 @@
     --fs-14: 0.875rem; /* 14px */
 
     --size-88: 5.5rem;
+    --size-60: 3.75rem;
     --size-48: 3rem; /* 48px */
     --size-36: 2.25rem; /* 30px */
     --size-30: 1.875rem; /* 30px */
@@ -82,4 +83,9 @@ body, html, .main {
 body {
     font-family: var(--main-font);
     text-align: right;
+}
+
+button,
+::placeholder {
+    font-family: var(--main-font);
 }
