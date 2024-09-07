@@ -214,3 +214,37 @@
         margin-bottom: 30px;
     }
 }
+
+
+/* About */
+.about {
+    padding: var(--container-y-padding) var(--container-x-padding);
+    height: auto;
+    background-color: rgb(245, 245, 247);
+}
+
+.about .section-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-36);
+}
+
+.about-title {
+    font-size: var(--fs-30);
+}
+
+.about-paragraph {
+    color: rgb(124, 124, 124);
+}
+
+@media (min-width:640px) {
+    .about-title {
+        font-size: var(--fs-60);
+    }
+    
+    .about-paragraph {
+        font-size: var(--fs-24);
+    }
+
+
+}
