@@ -301,3 +301,77 @@
         grid-template-columns: repeat(3, auto);
     }
 }
+
+/* Numbers */
+.numbers {
+    padding: var(--container-y-padding) var(--container-x-padding);
+    height: auto;
+}
+
+.numbers .section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--size-48);
+}
+
+.numbers-title {
+    color: var(--primary-color);
+    font-size: var(--fs-30);
+}
+
+.numbers-sub-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: var(--size-36);
+}
+
+.number-conatiner {
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px;
+    padding: var(--size-28) var(--size-30);
+    border-radius: var(--size-10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: var(--size-24);
+    min-width: 280px;
+}
+
+.number-icon {
+    background-color: var(--secondary-color);
+    padding: var(--size-24);
+    width: var(--size-88);
+    height: var(--size-88);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.number-title {
+    color: var(--secondary-color);
+    font-size: var(--fs-24);
+}
+
+.number-stat {
+    color: var(--primary-color);
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-48);
+}
+
+.numbers-more-button {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: var(--size-10) var(--size-30);
+    border-radius: var(--size-28);
+}
+
+.numbers-more-button:hover {
+    background-color: var(--primary-color);
+    color: var(--main-light-color);
+    transition: var(--transition);
+}
