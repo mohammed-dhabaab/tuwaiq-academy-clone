@@ -73,7 +73,7 @@
         display: flex;
         align-items: center;
         gap: var(--size-4);
-        color: var(--secondary-color);
+        color: rgb(87, 227, 216);
         background-color: var(--primary-color);
         padding: var(--size-8) var(--size-16);
         font-weight: var(--fw-medium);
@@ -487,5 +487,97 @@
 
     .location-info {
         font-size: var(--fs-18);
+    }
+}
+
+/* Footer */
+.footer {
+    padding: var(--container-y-padding) var(--container-x-padding);
+    padding-bottom: 0;
+    height: auto;
+}
+
+.footer .section-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-36);
+    background-color: rgb(231, 221, 255);
+    border-radius: var(--size-24);
+    padding: var(--size-16);
+}
+
+
+.footer-inner-container-1 {
+    padding-bottom: var(--size-30);
+    border-bottom: 1px solid rgb(234, 236, 240);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+
+.footer-logo-container {
+    max-width: 200px;
+}
+
+.footer-navbar {
+    display: flex;
+    justify-content: center;
+    gap: var(--size-88);
+}
+.footer-navbar-link {
+    color: rgb(79, 41, 183);
+    font-weight: var(--fw-medium);
+    transition: var(--transition);
+}
+
+.footer-navbar-link:hover {
+    text-decoration: underline;
+}
+
+.footer-inner-container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    gap: var(--size-24);
+}
+
+.social-links-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--size-24);
+}
+
+.social-item {
+    background-color: rgb(79, 41, 183);
+    padding: var(--size-8);
+    border-radius: var(--size-16);
+}
+
+.copy-right {
+    color: rgb(79, 41, 183);
+    font-size: var(--fs-14);
+}
+
+
+@media (min-width:640px) {
+    .footer .section-container {
+        padding-right: var(--size-88);
+        padding-left: var(--size-88);
+    }
+
+    
+    .footer-inner-container-1 {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .footer-inner-container-2 {
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
