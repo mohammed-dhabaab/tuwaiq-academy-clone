@@ -189,7 +189,7 @@
     justify-content: center;
     align-items: center;
     /* background: linear-gradient(to bottom right, rgba(84, 187, 189, 0.6), rgba(105, 71, 164, 0.7)); */
-    background-image: linear-gradient(135.52deg, rgba(84, 187, 189, 0.5) 24.77%, rgba(105, 71, 164, 0.7) 67.54%, rgba(113, 150, 255, 0.71) 113.23%, rgba(217, 217, 217, 0) 137.24%);
+    /* background-image: linear-gradient(135.52deg, rgba(84, 187, 189, 0.5) 24.77%, rgba(105, 71, 164, 0.7) 67.54%, rgba(113, 150, 255, 0.71) 113.23%, rgba(217, 217, 217, 0) 137.24%); */
     /* background-image: linear-gradient(rgba(105, 71, 164, 0.39) 0%, rgba(23, 23, 23, 0.39) 100%); */
     height: 100vh;
     padding: var(--container-y-padding) var(--container-x-padding);
@@ -199,8 +199,17 @@
     position: absolute;
     right: 0;
     bottom: 0;
-    z-index: -1;
+    z-index: -2;
 }
+.background-overlay {  
+    position: absolute; /* Position it absolutely within the hero section */  
+    top: 0; /* Align to the top */  
+    left: 0; /* Align to the left */  
+    width: 100%; /* Full width */  
+    height: 100%; /* Full height */  
+    background-image: linear-gradient(135.52deg, rgba(84, 187, 189, 0.5) 24.77%, rgba(105, 71, 164, 0.7) 67.54%, rgba(113, 150, 255, 0.71) 113.23%, rgba(217, 217, 217, 0) 137.24%);  
+    z-index: -1; /* Ensure it's above the video */  
+}  
 
 @media (min-aspect-ratio:16/9) {
     .hero-background-video {
