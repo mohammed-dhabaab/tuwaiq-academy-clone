@@ -581,3 +581,35 @@
         justify-content: space-between;
     }
 }
+
+
+
+/* scrollbar */
+/* For WebKit browsers */  
+::-webkit-scrollbar {  
+    width: 12px; 
+}  
+
+::-webkit-scrollbar-track {  
+    background: #f1f1f1; 
+    border-radius: 10px; 
+}  
+
+::-webkit-scrollbar-thumb {  
+    background: #b297ff; 
+    border-radius: 10px; 
+}  
+
+::-webkit-scrollbar-thumb:hover {  
+    background: #b297ff; 
+}  
+
+
+/* Cursor */
+body {
+    cursor: url("../../assets/pages/about/cursor/cursor.svg"), auto;
+}
+
+a:hover, button:hover, .social-item:hover {  
+    cursor: url("../../assets/pages/about/cursor/pointer.svg"), pointer; /* Custom cursor on hover */  
+}  
