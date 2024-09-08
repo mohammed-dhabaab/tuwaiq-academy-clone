@@ -4,7 +4,6 @@
 
 ## 📂 Table of Contents
 
-- [📂 Table of Contents](#-table-of-contents)
 - [📋 Project Description](#-project-description)
 - [✨ Features](#-features)
 - [⛏️ Built Using](#️-built-using)
@@ -49,7 +48,7 @@ A clone website for Tuwaiq academy using HTML and CSS for my internship as Full 
 
 ## 🔍 Explore The Project
 
-- [Tuwaiq Academy Clone](https://mohammed-dhabaab.github.io/tuwaiq-adademy-clone/)
+- [Tuwaiq Academy Clone](https://mohammed-dhabaab.github.io/tuwaiq-academy-clone/index.html)
 
 
 ## 📥 Installation
@@ -68,6 +67,6 @@ A clone website for Tuwaiq academy using HTML and CSS for my internship as Full 
 - [MIT](https://choosealicense.com/licenses/mit/)
 
 ## 🏅Acknowledgments
-- [Tuwaiq Academy](https://mohammed-dhabaab.github.io/tuwaiq-adademy-clone/)
+- [Tuwaiq Academy](https://tuwaiq.edu.sa/)
 - [Trainer. Dimah Aldossari](https://github.com/Dimah-Aldossari)
 - [Trainer. Ziad Alsaedi](https://github.com/ZiadAlsaedi)
