@@ -64,7 +64,7 @@
 
 
 
-@media (min-width:640px) {
+@media (min-width:777px) {
     .mobile-navbar,
     .hamburger-menu-container {
         display: none;
@@ -145,7 +145,7 @@
 .number-type {
     color: rgb(156, 156, 156);
     font-size: var(--fs-18);
-    margin-bottom: var(--size-10);
+    /* margin-bottom: var(--size-10); */
 }
 
 .faculty-numbers {
@@ -197,17 +197,47 @@
 }
 
 
-@media (min-width:640px) {
+@media (min-width:1216px) {
     
-    .hero .section-container {
+    /* .hero .section-container {
         flex-direction: row-reverse;
+    } */
+
+    .hero .section-container {
+        display: grid;
+        grid-template-areas: "hero-numbers-container hero-video";
+        grid-template-columns: 1fr 2fr;
     }
+
     .hero-video {
-        max-width: 60%;
+        grid-area: "hero-video";
+    }
+    .hero-numbers-container {
+        display: grid;
+        grid-template-areas: "hero-people-numbers"
+        "program-numbers";
     }
 
     .hero-numbers-container {
-        width: 40%;
+        grid-area: hero-numbers-container;
+    }
+
+    .hero-people-numbers {
+        grid-area: hero-people-numbers;
+    }
+
+    .program-numbers {
+        grid-area: program-numbers;
+    }
+
+
+
+    .hero-video {
+        max-width: 100%;
+    }
+
+    .hero-numbers-container {
+        /* width: 40%; */
     }
 
     .number-type {
