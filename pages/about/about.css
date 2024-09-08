@@ -64,7 +64,7 @@
 
 
 
-@media (min-width:777px) {
+@media (min-width:740px) {
     .mobile-navbar,
     .hamburger-menu-container {
         display: none;
@@ -267,7 +267,7 @@
     color: rgb(124, 124, 124);
 }
 
-@media (min-width:640px) {
+@media (min-width:740px) {
     .about-title {
         font-size: var(--fs-60);
     }
@@ -351,7 +351,7 @@
     color: rgb(128, 216, 131);
 }
 
-@media (min-width:640px) {
+@media (min-width:740px) {
     .offers-title {
         font-size: var(--fs-60);
     }
@@ -427,7 +427,7 @@
     color: rgb(245, 229, 152);
 }
 
-@media (min-width:640px) {
+@media (min-width:740px) {
     .competitions-inner-container {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -594,7 +594,7 @@
 }
 
 
-@media (min-width:640px) {
+@media (min-width:740px) {
     .footer .section-container {
         padding-right: var(--size-88);
         padding-left: var(--size-88);
