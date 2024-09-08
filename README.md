@@ -67,6 +67,6 @@ A clone website for Tuwaiq academy using HTML and CSS for my internship as Full 
 - [MIT](https://choosealicense.com/licenses/mit/)
 
 ## 🏅Acknowledgments
-- [Tuwaiq Academy](https://mohammed-dhabaab.github.io/tuwaiq-adademy-clone/)
+- [Tuwaiq Academy](https://tuwaiq.edu.sa/)
 - [Trainer. Dimah Aldossari](https://github.com/Dimah-Aldossari)
 - [Trainer. Ziad Alsaedi](https://github.com/ZiadAlsaedi)
