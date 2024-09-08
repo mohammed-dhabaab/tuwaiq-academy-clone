@@ -4,7 +4,6 @@
 
 ## 📂 Table of Contents
 
-- [📂 Table of Contents](#-table-of-contents)
 - [📋 Project Description](#-project-description)
 - [✨ Features](#-features)
 - [⛏️ Built Using](#️-built-using)
@@ -49,7 +48,7 @@ A clone website for Tuwaiq academy using HTML and CSS for my internship as Full 
 
 ## 🔍 Explore The Project
 
-- [Tuwaiq Academy Clone](https://mohammed-dhabaab.github.io/tuwaiq-adademy-clone/)
+- [Tuwaiq Academy Clone](https://mohammed-dhabaab.github.io/tuwaiq-academy-clone/index.html)
 
 
 ## 📥 Installation
