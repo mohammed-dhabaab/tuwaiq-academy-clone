@@ -18,11 +18,11 @@
 
 ## 📋 Project Description
 
-A clone website for Tuwaiq academy using HTML and CSS for my internship at it
+A clone website for Tuwaiq academy using HTML and CSS for my internship as Full Stack Developer
 
-<!-- <div style="display:flex; justify-content: center;">
-  <img src="src/assets/readme/snapshots/snapshot-2.png" alt="Project snapshot" />
-</div> -->
+<div style="display:flex; justify-content: center;">
+  <img src="./assets/readme/view/view-main.png" alt="Project snapshot" />
+</div>
 
 ## ✨ Features
 
